@@ -57,7 +57,9 @@ When you run the configuration command, Claude will:
 3. **Create Workflows** - Sets up intelligent routing for common tasks
 4. **Configure CLAUDE.md** - Saves your team configuration
 
-Example configuration for a Laravel + React project:
+Example configurations:
+
+**Laravel + React Project:**
 ```markdown
 # Your AI Development Team
 
@@ -73,20 +75,55 @@ Agent Assignments:
 Your specialized team is ready!
 ```
 
+**.NET + TypeScript Project:**
+```markdown
+# Your AI Development Team
+
+Tech Stack: .NET 9, TypeScript 5.7, SQL Server, Vite
+
+Agent Assignments:
+- Solution architecture → @dotnet-solution-architect
+- API development → @dotnet-core-architect
+- Data layer → @efcore-expert
+- Frontend → @modern-frontend-architect
+- Database → @sqlserver-expert
+- Build optimization → @vite-expert
+
+Your enterprise team is configured!
+```
+
 ## 👥 Meet Your AI Development Team
 
 ### 🎭 Leadership
 - **[Tech Lead Orchestrator](agents/orchestrators/tech-lead-orchestrator.md)** - Understands vague requirements, breaks down complex tasks, coordinates specialists
 - **[Project Analyst](agents/orchestrators/project-analyst.md)** - Deep understanding of your codebase structure and patterns
+- **[.NET Solution Architect](agents/orchestrators/dotnet-solution-architect.md)** - Enterprise .NET solutions, microservices, cloud architecture
+- **[Modern Frontend Architect](agents/orchestrators/modern-frontend-architect.md)** - Cross-platform web/mobile, micro-frontends, performance
 
 ### 💼 Backend Specialists
 - **[Laravel Backend Expert](agents/specialized/laravel/laravel-backend-expert.md)** - Laravel patterns, Eloquent ORM, queues, events
 - **[Laravel API Architect](agents/specialized/laravel/laravel-api-architect.md)** - RESTful APIs, resources, Sanctum auth
+- **[.NET Framework Migration Expert](agents/specialized/dotnet/dotnet-framework-migration-expert.md)** - .NET Framework 4.8 to .NET 9+ migration specialist
+- **[.NET Core Architect](agents/specialized/dotnet/dotnet-core-architect.md)** - .NET 9+, minimal APIs, microservices, cloud-native
+- **[EF Core Expert](agents/specialized/dotnet/efcore-expert.md)** - Entity Framework Core 9+, data access patterns, performance
 - **[Universal Backend Developer](agents/universal/backend-developer.md)** - Polyglot programmer for any backend language
+
+### 🗄️ Database Specialists
+- **[SQL Server Expert](agents/specialized/database/sqlserver-expert.md)** - T-SQL optimization, indexes, stored procedures, Always On
+- **[PostgreSQL Expert](agents/specialized/database/postgresql-expert.md)** - JSONB, full-text search, partitioning, performance tuning
 
 ### 🎨 Frontend Specialists
 - **[Frontend Developer](agents/universal/frontend-developer.md)** - React, Vue, Angular expertise with modern patterns
+- **[TypeScript Architect](agents/specialized/typescript/typescript-architect.md)** - TypeScript 5.7+, advanced type systems, domain modeling
+- **[shadcn/ui Expert](agents/specialized/typescript/shadcn-ui-expert.md)** - Modern React components, Radix UI, Tailwind integration
 - **[Tailwind CSS Expert](agents/universal/tailwind-css-expert.md)** - Pixel-perfect responsive designs
+
+### 🗺️ Mapping & Visualization
+- **[Mapbox Expert](agents/specialized/mapping/mapbox-expert.md)** - Mapbox GL JS v3, real-time tracking, 3D terrain, custom styles
+
+### 🛠️ Build Tools & DevOps
+- **[Vite Expert](agents/specialized/build/vite-expert.md)** - Vite 6+, build optimization, plugin development, HMR
+- **[Webpack Migration Expert](agents/specialized/build/webpack-migration-expert.md)** - Webpack to Vite migration, configuration conversion
 
 ### 🔧 Code Quality Team
 - **[Code Archaeologist](agents/core/code-archaeologist.md)** - Understands and documents any codebase
@@ -165,6 +202,8 @@ Multiple specialists work in parallel. While one designs your API, another build
 - **Agencies** - Handle any client technology stack with confidence
 - **Solo Developers** - Access a full team's expertise whenever you need it
 - **Enterprises** - Maintain consistency and best practices across teams
+- **.NET Developers** - Modernize legacy systems, build cloud-native microservices
+- **Full-Stack Teams** - Coordinate frontend and backend development seamlessly
 
 ## 📚 Learn More
 
@@ -175,10 +214,11 @@ Multiple specialists work in parallel. While one designs your API, another build
 
 ## 🌈 Coming Soon
 
-- More framework specialists (Django, Rails, Vue.js)
 - Domain experts (E-commerce, FinTech, HealthTech)
-- DevOps team members
-- Mobile development specialists
+- Mobile development specialists (React Native, Flutter)
+- More DevOps team members (Kubernetes, Docker, CI/CD)
+- AI/ML specialists (TensorFlow, PyTorch)
+- Blockchain developers (Solidity, Web3)
 
 ## 💬 Join The Community
 
