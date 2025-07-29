@@ -121,6 +121,9 @@ Your enterprise team is configured!
 ### 🗺️ Mapping & Visualization
 - **[Mapbox Expert](agents/specialized/mapping/mapbox-expert.md)** - Mapbox GL JS v3, real-time tracking, 3D terrain, custom styles
 
+### ☁️ Platform Specialists
+- **[Supabase Fullstack Expert](agents/specialized/supabase/supabase-fullstack-expert.md)** - PostgreSQL, Auth, Storage, Edge Functions, Realtime, Vector embeddings
+
 ### 🛠️ Build Tools & DevOps
 - **[Vite Expert](agents/specialized/build/vite-expert.md)** - Vite 6+, build optimization, plugin development, HMR
 - **[Webpack Migration Expert](agents/specialized/build/webpack-migration-expert.md)** - Webpack to Vite migration, configuration conversion
